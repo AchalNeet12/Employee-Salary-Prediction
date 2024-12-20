@@ -7,7 +7,7 @@ This project is a Salary Predictor that uses Polynomial Regression to predict em
 Polynomial Regression is an extension of linear regression, where the relationship between the independent variable X and the dependent variable y is modeled as a polynomial of degree 
 n. It is useful when the data shows a non-linear relationship.
 For instance, in the case of the salary prediction, polynomial regression captures the non-linear growth of salary with respect to years of experience. A linear regression model may not fit this non-linearity as effectively as polynomial regression.
-Formula:
+- **Formula:**
         y=β0 + β1x + β2x^2 + β3x^3 +⋯+ βnx^n
 Where:
 - x is the independent variable (years of experience),
