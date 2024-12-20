@@ -1,4 +1,0 @@
-streamlit 
-transformers=BertModel,BertTokenizer
-Pytorch
-base64
