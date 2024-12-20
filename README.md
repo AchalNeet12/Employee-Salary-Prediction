@@ -9,6 +9,7 @@ n. It is useful when the data shows a non-linear relationship.
 For instance, in the case of the salary prediction, polynomial regression captures the non-linear growth of salary with respect to years of experience. A linear regression model may not fit this non-linearity as effectively as polynomial regression.
 - **Formula:**
         y=β0 + β1x + β2x^2 + β3x^3 +⋯+ βnx^n
+  
 Where:
 - x is the independent variable (years of experience),
 - y is the dependent variable (salary),
@@ -24,9 +25,9 @@ The dataset is loaded using pandas (pd.read_csv).
 The features (independent variable) X are the years of experience, and the target variable y is the salary.
 3. **Polynomial Feature Transformation:**
 Polynomial features are created from the X variable to capture the non-linear relationship between experience and salary. This is achieved using PolynomialFeatures(degree=5).
-4.**Model Training:**
+4. **Model Training:**
 Polynomial regression is implemented by applying Linear Regression on the transformed polynomial features.
-5.**Prediction:**
+5. **Prediction:**
 After training, predictions are made using the trained model, based on the user-provided experience.
 
 ## 🛠️ Libraries Used:
